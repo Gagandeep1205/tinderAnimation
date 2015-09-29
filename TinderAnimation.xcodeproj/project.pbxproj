@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		CEFFF81E1BBA9F21003F7368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFF81D1BBA9F21003F7368 /* main.m */; };
 		CEFFF8211BBA9F21003F7368 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFF8201BBA9F21003F7368 /* AppDelegate.m */; };
-		CEFFF8241BBA9F21003F7368 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFF8231BBA9F21003F7368 /* ViewController.m */; };
 		CEFFF8271BBA9F21003F7368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFFF8251BBA9F21003F7368 /* Main.storyboard */; };
 		CEFFF8291BBA9F21003F7368 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFFF8281BBA9F21003F7368 /* Images.xcassets */; };
 		CEFFF82C1BBA9F21003F7368 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFFF82A1BBA9F21003F7368 /* LaunchScreen.xib */; };
 		CEFFF8381BBA9F21003F7368 /* TinderAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFF8371BBA9F21003F7368 /* TinderAnimationTests.m */; };
+		CEFFF8491BBA9F61003F7368 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFF8421BBA9F61003F7368 /* ViewController.m */; };
+		CEFFF84A1BBA9F61003F7368 /* EditInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFF8441BBA9F61003F7368 /* EditInfo.m */; };
+		CEFFF84B1BBA9F61003F7368 /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFF8461BBA9F61003F7368 /* CollectionCell.m */; };
+		CEFFF84C1BBA9F61003F7368 /* CustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFF8481BBA9F61003F7368 /* CustomLayout.m */; };
+		CEFFF8511BBAA025003F7368 /* LXReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFF8501BBAA025003F7368 /* LXReorderableCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,22 @@
 		CEFFF81D1BBA9F21003F7368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEFFF81F1BBA9F21003F7368 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEFFF8201BBA9F21003F7368 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEFFF8221BBA9F21003F7368 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEFFF8231BBA9F21003F7368 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEFFF8261BBA9F21003F7368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEFFF8281BBA9F21003F7368 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEFFF82B1BBA9F21003F7368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CEFFF8311BBA9F21003F7368 /* TinderAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFFF8361BBA9F21003F7368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEFFF8371BBA9F21003F7368 /* TinderAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinderAnimationTests.m; sourceTree = "<group>"; };
+		CEFFF8411BBA9F61003F7368 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEFFF8421BBA9F61003F7368 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEFFF8431BBA9F61003F7368 /* EditInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditInfo.h; sourceTree = "<group>"; };
+		CEFFF8441BBA9F61003F7368 /* EditInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditInfo.m; sourceTree = "<group>"; };
+		CEFFF8451BBA9F61003F7368 /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
+		CEFFF8461BBA9F61003F7368 /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
+		CEFFF8471BBA9F61003F7368 /* CustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayout.h; sourceTree = "<group>"; };
+		CEFFF8481BBA9F61003F7368 /* CustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayout.m; sourceTree = "<group>"; };
+		CEFFF84F1BBAA025003F7368 /* LXReorderableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXReorderableCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		CEFFF8501BBAA025003F7368 /* LXReorderableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXReorderableCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +95,9 @@
 			children = (
 				CEFFF81F1BBA9F21003F7368 /* AppDelegate.h */,
 				CEFFF8201BBA9F21003F7368 /* AppDelegate.m */,
-				CEFFF8221BBA9F21003F7368 /* ViewController.h */,
-				CEFFF8231BBA9F21003F7368 /* ViewController.m */,
+				CEFFF84F1BBAA025003F7368 /* LXReorderableCollectionViewFlowLayout.h */,
+				CEFFF8501BBAA025003F7368 /* LXReorderableCollectionViewFlowLayout.m */,
+				CEFFF84D1BBA9F68003F7368 /* Controllers */,
 				CEFFF8251BBA9F21003F7368 /* Main.storyboard */,
 				CEFFF8281BBA9F21003F7368 /* Images.xcassets */,
 				CEFFF82A1BBA9F21003F7368 /* LaunchScreen.xib */,
@@ -117,6 +130,29 @@
 				CEFFF8361BBA9F21003F7368 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEFFF84D1BBA9F68003F7368 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFF8411BBA9F61003F7368 /* ViewController.h */,
+				CEFFF8421BBA9F61003F7368 /* ViewController.m */,
+				CEFFF8431BBA9F61003F7368 /* EditInfo.h */,
+				CEFFF8441BBA9F61003F7368 /* EditInfo.m */,
+				CEFFF84E1BBA9F7E003F7368 /* customCell */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CEFFF84E1BBA9F7E003F7368 /* customCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFF8451BBA9F61003F7368 /* CollectionCell.h */,
+				CEFFF8461BBA9F61003F7368 /* CollectionCell.m */,
+				CEFFF8471BBA9F61003F7368 /* CustomLayout.h */,
+				CEFFF8481BBA9F61003F7368 /* CustomLayout.m */,
+			);
+			name = customCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFFF8241BBA9F21003F7368 /* ViewController.m in Sources */,
+				CEFFF84C1BBA9F61003F7368 /* CustomLayout.m in Sources */,
+				CEFFF8491BBA9F61003F7368 /* ViewController.m in Sources */,
+				CEFFF84B1BBA9F61003F7368 /* CollectionCell.m in Sources */,
+				CEFFF8511BBAA025003F7368 /* LXReorderableCollectionViewFlowLayout.m in Sources */,
 				CEFFF8211BBA9F21003F7368 /* AppDelegate.m in Sources */,
 				CEFFF81E1BBA9F21003F7368 /* main.m in Sources */,
+				CEFFF84A1BBA9F61003F7368 /* EditInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
